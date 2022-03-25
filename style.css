@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background-image: url(bg2.jpg);
+    font-family: 'poppins';
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100vw 510px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin-top: 10px;
+    font-weight: bold;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 60px;
+}
+
+.col{
+    padding-top: 200px;
+}
+
+h1{
+    padding-top: 70px;
+    color: #a53425;
+    font-size: 50px;
+}
+
+h2, h3{
+    color: black;
+    font-size: 40px;
+}
+
+h4{
+    color: black;
+    font-size: 20px;
+    text-align: right;
+    margin: 0px;
+}
+
+p{
+    color: black;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-right: 55px;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+.leftcolumn {
+    float: left;
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: yellow;
+   
+}
+
+.rightcolumn {
+    float: right;
+    width: 45%;
+    padding-right: 50px;
+    padding-top: 70px;
+    background-color: yellow;
+   
+}
+
+.contenartikel:after {
+    conten: "";
+    display: table;
+    clear: both;
+    background-color: blue;
+}
+
+.selengkapnya{
+    font-size: 30px;
+    padding: 15px 0;
+    background: yellowgreen;
+    border-radius: 8px;
+
+}
+
+.column {
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+.img{
+    padding-top: 20px;
+    width: 40%;
+}
+
+.logo{
+    width: 10px;
+    height: 10px;
+    cursor:pointer;
+}
+
+footer{
+    width: 1685px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    margin-top: 900px;
+}
